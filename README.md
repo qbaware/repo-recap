@@ -15,3 +15,4 @@ The digests will be generated from an LLM.
 - Can pass in multiple Slack and Discord channels (emails will be supported later, if at all)
 - Can choose between Gemini or ChatGPT for digest creation
 - Can provide a custom message to the LLM regarding message formatting
+- Digest messages to also have links to the respective commits / PRs with the changes
