@@ -23,12 +23,12 @@ jobs:
 
   static-analysis:
     needs: build
-    name: 'Static Analysis'
-    runs-on: 'ubuntu-latest'
+    name: Static Analysis
+    runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
-        uses: 'actions/checkout@v4'
-      - name: 'Run nilaway'
-        uses: 'qbaware/nilaway-action@v0'
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run nilaway
+        uses: qbaware/nilaway-action@v0
         with:
-          package-to-scan: './...'
+          package-to-scan: ./...
